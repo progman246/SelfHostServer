@@ -77,7 +77,7 @@
     <Compile Include="order.cs" />
     <Compile Include="OrderController.cs" />
     <Compile Include="Product.cs" />
-    <Compile Include="productsController.cs" />
+    <Compile Include="ProductController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

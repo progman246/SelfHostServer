@@ -5,9 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.SelfHost;
-
-
-
 namespace selfHostServer.Host
 {
     internal class Program
@@ -19,10 +16,7 @@ namespace selfHostServer.Host
             using(HttpSelfHostServer server = new HttpSelfHostServer(config))
             {
                 server.OpenAsync().Wait();
-
-                //Just for waiting
-                Console.Read();
-
+                Console.Read();      //Just for waiting
             }
         }
     }

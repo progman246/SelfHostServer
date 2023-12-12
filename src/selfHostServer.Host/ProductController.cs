@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace selfHostServer.Host
 {
-    public class productsController:ApiController
+    public class ProductController:ApiController
     {
         Product[] products=new Product[]
         {
